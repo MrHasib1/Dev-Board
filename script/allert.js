@@ -50,7 +50,7 @@ document.getElementById("btn-5").addEventListener("click", function (event) {
   const y = getInnerTextById2("increase-num");
   setInnerTextByIdAndValue("increase-num", y);
   handleToggle("btn-5");
-  history("history", "pb-1");
+  history("history", "pb-5");
   count++;
   congrats(count);
 });
