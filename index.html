@@ -36,9 +36,12 @@
             <div class="flex items-center gap-8">
               <div class="bg-gray-300 flex gap-3 p-3 rounded-3xl">
                 <img src="assets/checkbox.png" alt="" />
-                <h3 class="text-2xl font-bold">23</h3>
+                <h3 id="increase-num" class="text-2xl font-bold">23</h3>
               </div>
-              <div class="bg-gray-300 p-3 rounded-full">
+              <div
+                id="bg-change"
+                class="bg-gray-300 p-3 rounded-full cursor-pointer"
+              >
                 <img class="w-8" src="assets/theme-btn.png" alt="" />
               </div>
             </div>
@@ -57,29 +60,27 @@
               </div>
               <div>
                 <p>Task Assigned</p>
-                <h3 class="font-bold text-xl">06</h3>
+                <h3 id="card-num" class="font-bold text-xl">06</h3>
               </div>
             </div>
             <div
-              class="bg-linear-to-r from-blue-700 to-blue-300 p-10 rounded-lg flex gap-6 items-center col-span-2"
+              id="discover-question"
+              class="bg-linear-to-r from-blue-700 to-blue-300 cursor-pointer p-10 rounded-lg flex gap-6 items-center col-span-2"
             >
               <div>
                 <img src="assets/board.png" alt="" />
               </div>
               <div>
-                <p class="text-white text-2xl">
-                  Discover Something <br />
-                  New Today!
-                </p>
+                <p class="text-white text-2xl">Discover Something New Today!</p>
               </div>
             </div>
-            <div class="bg-gray-300 p-3 rounded-lg flex items-center gap-3">
+            <div class="bg-gray-300 p-3 rounded-lg flex items-center gap-2">
               <div class="bg-base-100 p-4 rounded-full">
                 <img src="assets/calender.png" alt="" />
               </div>
               <div>
                 <p id="day">Wed,</p>
-                <h3 id="date" class="font-bold text-lg">Jul 28 2025</h3>
+                <h3 id="date" class="font-bold text-base"></h3>
               </div>
             </div>
           </div>
@@ -89,7 +90,9 @@
             <div class=" ">
               <div class="bg-gray-300 rounded-lg p-3">
                 <div class="badge bg-white">ShopEase</div>
-                <h1 class="text-xl font-bold mt-4">Fix Mobile Button Issue</h1>
+                <h1 id="pb-1" class="text-xl font-bold mt-4">
+                  Fix Mobile Button Issue
+                </h1>
                 <p class="bg-white p-2 rounded-lg text-gray-400 my-4">
                   Debug using Chrome DevTools, check for overlapping elements,
                   and ensure onClick works properly
@@ -100,7 +103,7 @@
                     <p class="text-base font-semibold">21 March 2025</p>
                   </div>
                   <div>
-                    <button class="btn bg-[#3752FD] text-white">
+                    <button id="btn-1" class="btn bg-[#3752FD] text-white">
                       Complete
                     </button>
                   </div>
@@ -110,7 +113,7 @@
             <div class=" ">
               <div class="bg-gray-300 rounded-lg p-3">
                 <div class="badge bg-white">CloudSync</div>
-                <h1 class="text-xl font-bold mt-4">Add Dark Mode</h1>
+                <h1 id="pb-2" class="text-xl font-bold mt-4">Add Dark Mode</h1>
                 <p class="bg-white p-2 rounded-lg text-gray-400 my-4">
                   Store the user's preference in localStorage, update CSS
                   variables dynamically, and apply a smooth transition effect.
@@ -121,7 +124,7 @@
                     <p class="text-base font-semibold">21 March 2025</p>
                   </div>
                   <div>
-                    <button class="btn bg-[#3752FD] text-white">
+                    <button id="btn-2" class="btn bg-[#3752FD] text-white">
                       Complete
                     </button>
                   </div>
@@ -131,7 +134,9 @@
             <div class=" ">
               <div class="bg-gray-300 rounded-lg p-3">
                 <div class="badge bg-white">SwiftPay</div>
-                <h1 class="text-xl font-bold mt-4">Optimize Home page </h1>
+                <h1 id="pb-3" class="text-xl font-bold mt-4">
+                  Optimize Home page 
+                </h1>
                 <p class="bg-white p-2 rounded-lg text-gray-400 my-4">
                   Debug using Chrome DevTools, check for overlapping elements,
                   and ensure onClick works properly
@@ -142,7 +147,7 @@
                     <p class="text-base font-semibold">21 March 2025</p>
                   </div>
                   <div>
-                    <button class="btn bg-[#3752FD] text-white">
+                    <button id="btn-3" class="btn bg-[#3752FD] text-white">
                       Complete
                     </button>
                   </div>
@@ -152,7 +157,9 @@
             <div class=" ">
               <div class="bg-gray-300 rounded-lg p-3">
                 <div class="badge bg-white">Meta</div>
-                <h1 class="text-xl font-bold mt-4">Add new emoji 🤲</h1>
+                <h1 id="pb-4" class="text-xl font-bold mt-4">
+                  Add new emoji 🤲
+                </h1>
                 <p class="bg-white p-2 rounded-lg text-gray-400 my-4">
                   Debug using Chrome DevTools, check for overlapping elements,
                   and ensure onClick works properly
@@ -163,7 +170,7 @@
                     <p class="text-base font-semibold">21 March 2025</p>
                   </div>
                   <div>
-                    <button class="btn bg-[#3752FD] text-white">
+                    <button id="btn-4" class="btn bg-[#3752FD] text-white">
                       Complete
                     </button>
                   </div>
@@ -173,7 +180,9 @@
             <div class=" ">
               <div class="bg-gray-300 rounded-lg p-3">
                 <div class="badge bg-white">Google LLC</div>
-                <h1 class="text-xl font-bold mt-4">Integrate OpenAI API</h1>
+                <h1 id="pb-5" class="text-xl font-bold mt-4">
+                  Integrate OpenAI API
+                </h1>
                 <p class="bg-white p-2 rounded-lg text-gray-400 my-4">
                   Debug using Chrome DevTools, check for overlapping elements,
                   and ensure onClick works properly
@@ -184,7 +193,7 @@
                     <p class="text-base font-semibold">21 March 2025</p>
                   </div>
                   <div>
-                    <button class="btn bg-[#3752FD] text-white">
+                    <button id="btn-5" class="btn bg-[#3752FD] text-white">
                       Complete
                     </button>
                   </div>
@@ -194,7 +203,9 @@
             <div class=" ">
               <div class="bg-gray-300 rounded-lg p-3">
                 <div class="badge bg-white">Glassdoar</div>
-                <h1 class="text-xl font-bold mt-4">Improve Job searching</h1>
+                <h1 id="pb-6" class="text-xl font-bold mt-4">
+                  Improve Job searching
+                </h1>
                 <p class="bg-white p-2 rounded-lg text-gray-400 my-4">
                   Debug using Chrome DevTools, check for overlapping elements,
                   and ensure onClick works properly
@@ -205,7 +216,7 @@
                     <p class="text-base font-semibold">21 March 2025</p>
                   </div>
                   <div>
-                    <button class="btn bg-[#3752FD] text-white">
+                    <button id="btn-6" class="btn bg-[#3752FD] text-white">
                       Complete
                     </button>
                   </div>
@@ -215,18 +226,26 @@
           </div>
         </div>
         <!-- small-card -->
-        <div class="text-center bg-base-100 shadow-sm rounded-xl">
+        <div id="history" class="text-center bg-base-100 shadow-sm rounded-xl">
           <div class="flex items-center justify-center gap-3 mt-6">
             <img src="assets/activity.png" alt="" />
             <h2 class="text-xl font-medium">Activity Log</h2>
           </div>
           <div class="mt-4">
-            <button class="btn bg-[#3752FD] text-white">Clear History</button>
+            <button id="clear-history" class="btn bg-[#3752FD] text-white">
+              Clear History
+            </button>
           </div>
           <hr class="border-dashed my-5" />
         </div>
       </main>
     </section>
+    <script src="script/Activities.js"></script>
+    <script src="script/utilities.js"></script>
     <script src="script/recent_date.js"></script>
+    <script src="script/move.js"></script>
+    <script src="script/allert.js"></script>
+    <script src="script/bg-change.js"></script>
+    <script src="script/clear.js"></script>
   </body>
 </html>
